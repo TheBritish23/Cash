@@ -17,7 +17,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_you have to reload the page._
 
 ## Support and contact details
 
@@ -26,6 +26,16 @@ _email.com_
 ## Technologies Used
 
 _{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+
+## Specs
+
+_Spec 1: The withdraw function subtracts from the deposit function._
+ _input: $400-$200_
+ _output: $200_
+
+_Spec 2: Initial deposit carries to deposit amount._
+ _input: initial deposit[$500]_
+ _output: deposit amount[$500]_
 
 ### License
 
