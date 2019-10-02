@@ -29,13 +29,21 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 ## Specs
 
-_Spec 1: The withdraw function subtracts from the deposit function._
- _input: $400-$200_
- _output: $200_
+_Spec 1: Allow user to create an account._
+ _input: Soroush Azizi [$400]_
+ _output: Soroush Azizi: $400_
 
-_Spec 2: Initial deposit carries to deposit amount._
+_Spec 2: Allow Deposit._
  _input: initial deposit[$500]_
  _output: deposit amount[$500]_
+
+_Spec 3: Show balance._
+  _input: $780_
+  _output: $780.0_
+
+_Spec 4: Allow wIthdrawal._
+  _input: $1000-$200_
+  _output: $800_
 
 ### License
 
