@@ -39,6 +39,16 @@ function displayBankaccountDetails(moneyToDisplay) {
   moneyList.html(htmlForMoneyInfo);
 };
 
+function showMoney(moneyId) {
+  var bucks = moNey.findContact(moneyId);
+  $("#show-contact").show();
+  $(".name").html(movie.namE);
+  $(".deposit").html(movie.dEposit);
+  $(".amount").html(movie.aMount);
+  $(".withdraw").html(movie.wIthdraw);
+  var buttons = $("#buttons");
+}
+
 $(document).ready(function() {
   $("form#bankrupt").submit(function(event) {
     event.preventDefault()
