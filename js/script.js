@@ -67,5 +67,16 @@ function showMoney(moneyId) {
 $(document).ready(function() {
   $("form#bankrupt").submit(function(event) {
     event.preventDefault()
+    var inputtednamE = $("input#namE").val();
+    var inputteddePosit = $("input#dePosit").val();
+    var inputtedaMount = $("input#aMount").val();
+    var inputtedwIthdraw = $("input#wIthdraw").val();
+    $("input#namE").val("");
+    $("input#dePosit").val("");
+    $("input#aMount").val("");
+    $("input#wIthdraw").val("");
+    var newbankAccount = new bankAccount(inputtednamE, inputteddePosit, inputtedaMount, inputtedwIthdraw);
+    var transaction = newbankAccount.transaction()
+    $('#output').append('<p> Current Balance: $'+ transaction + '</p>');
   })
  })
