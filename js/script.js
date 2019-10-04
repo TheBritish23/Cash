@@ -49,7 +49,7 @@ function displayBankaccountDetails(moneyToDisplay) {
   var bankAccountList = $("ul#bankaccount");
   var htmlForbankAccountInfo = "";
   addressBookToDisplay.bankAccount.forEach(function(contact) {
-    htmlForTicketsInfo += "<li id=" + bankaccount.id + ">" + bankaccount.peoplE + " " + bankaccount.filM + " " + bankaccount.timE + "</li>";
+    htmlForbankAccountInfo += "<li id=" + bankaccount.id + ">" + bankaccount.peoplE + " " + bankaccount.filM + " " + bankaccount.timE + "</li>";
   });
   moneyList.html(htmlForMoneyInfo);
 };
