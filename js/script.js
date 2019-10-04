@@ -26,6 +26,21 @@ Money.prototype.findbankAccount = function(bankAccount) {
 }
 
 //business logic for bankAccount
+function bankAccount(namE, dEposit, aMount, wIthdraw) {
+  this.namE = namE;
+  this.dEposit = dEposit;
+  this.aMount = aMount;
+  this.wIthdraw = wIthdraw;
+}
+
+bankAccount.prototype.fullName = function() {
+  return this.namE + " " + this.wIthdraw;
+}
+
+bankAccount.prototype.transaction = function() {
+  console.log(this.namE);
+  return parseInt(this.namE) - "";
+}
 
 // User Interface Logic
 var money = new Money();
