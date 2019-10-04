@@ -39,7 +39,7 @@ bankAccount.prototype.fullName = function() {
 
 bankAccount.prototype.transaction = function() {
   console.log(this.namE);
-  return parseInt(this.namE) - "";
+  return parseInt(this.namE);
 }
 
 // User Interface Logic
@@ -55,7 +55,7 @@ function displayBankaccountDetails(moneyToDisplay) {
 };
 
 function showMoney(moneyId) {
-  var bucks = moNey.findContact(moneyId);
+  var bucks = money.findContact(moneyId);
   $("#show-contact").show();
   $(".name").html(movie.namE);
   $(".deposit").html(movie.dEposit);
