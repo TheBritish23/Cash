@@ -38,8 +38,8 @@ bankAccount.prototype.fullName = function() {
 }
 
 bankAccount.prototype.transaction = function() {
-  console.log(this.namE);
-  return parseInt(this.namE);
+  console.log(this.aMount, this.wIthdraw);
+  return parseInt(this.aMount) - (this.wIthdraw);
 }
 
 // User Interface Logic
